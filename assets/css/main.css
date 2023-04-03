@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  min-width: 200px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item.grid-item--red {
+  background-color: red;
+}
+.grid-item.grid-item--blue {
+  background-color: blue;
+}
+.grid-item.grid-item--green {
+  background-color: green;
+}
