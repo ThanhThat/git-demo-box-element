@@ -22,22 +22,10 @@
   background-color: red;
 }
 
-.grid-item.grid-item--red:active {
-  background-color: blue;
-}
-
 .grid-item.grid-item--blue {
   background-color: blue;
 }
 
-.grid-item.grid-item--blue:active {
-  background-color: green;
-}
-
 .grid-item.grid-item--green {
   background-color: green;
-}
-
-.grid-item.grid-item--green:active {
-  background-color: red;
 }
